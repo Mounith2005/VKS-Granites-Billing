@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@media print {
+
+  body {
+    margin: 0;
+    background: white;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  button {
+    display: none !important;
+  }
+}
