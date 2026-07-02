@@ -18,10 +18,10 @@ const createUser = async () => {
       process.exit();
     }
 
-    const hashedPassword = await bcrypt.hash("vtsgranites@12", 10);
+    const hashedPassword = await bcrypt.hash("vksgranites@12", 10);
 
     const user = new User({
-      email: "vtsgranites@gmail.com",
+      email: "vksgranites@gmail.com",
       password: hashedPassword,
     });
 
